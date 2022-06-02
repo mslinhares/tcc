@@ -18,7 +18,11 @@ virtualenv vm
 ```
 vm\Scripts\Activate
 ```
-### 5. Testar o projeto
+### 5. Instalar os requirements
+```
+pip install -r requirements.txt
+```
+### 6. Testar o projeto
 ```
 python manage.py runserver
 ```
