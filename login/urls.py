@@ -18,7 +18,7 @@ urlpatterns = [
         views.PasswordResetConfirmView.as_view(), name='trocarsenhaview'),
 
     # logout
-    path('logout/$', views.UserLogoutView.as_view(), name='logoutview'),
+    path('logout/', views.UserLogoutView.as_view(), name='logoutview'),
 
     # login/perfil/
     path('perfil/$', views.MeuPerfilView.as_view(), name='perfilview'),
